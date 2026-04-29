@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santini | DDRC 客製化案例展示</title>
+    <meta name="description" content="從一個想法到真的上場。探索 Santini 與 DDRC 的頂級義大利客製化車衣之旅。">
     
     <!-- === 社群分享縮圖設定 (Open Graph) === -->
     <meta property="og:title" content="Santini | DDRC 客製化案例展示">
     <meta property="og:description" content="從一個想法到真的上場。探索 Santini 與 DDRC 的頂級義大利客製化車衣之旅。">
-    <!-- 縮圖建議使用 1200x630 的比例效果最好 -->
+    <!-- 恢復為 GitHub 絕對路徑，確保圖片一定能顯示 -->
     <meta property="og:image" content="https://raw.githubusercontent.com/jadesquarehsu/ddrc/main/images/ddrc_hero.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/jadesquarehsu/ddrc/main/images/ddrc_hero.png">
+    <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
@@ -72,6 +75,7 @@
         };
 
         const App = () => {
+          // 恢復為 GitHub 的絕對路徑，確保網頁圖片 100% 顯示
           const files = {
             hero: "https://raw.githubusercontent.com/jadesquarehsu/ddrc/main/images/ddrc_hero.png",
             heroMobile: "https://raw.githubusercontent.com/jadesquarehsu/ddrc/main/images/ddrc_hero_mobile.png",
