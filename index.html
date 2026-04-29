@@ -149,7 +149,7 @@
                     </div>
                   </div>
 
-                  {/* Step 02 版型 (已更新連結與文字) */}
+                  {/* Step 02 版型 */}
                   <div className="space-y-12">
                     <div className="flex items-baseline gap-4"><span className="text-5xl font-black text-pink-600 italic">02</span><h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">挑選專屬版型</h2></div>
                     <div className="grid md:grid-cols-3 gap-6">
@@ -286,9 +286,25 @@
                 </div>
               </section>
 
-              <footer className="py-12 bg-white text-center border-t border-slate-100">
-                <div className="mb-4 text-xl font-black text-slate-900">Santini <span className="text-pink-600">| CUSTOM</span></div>
-                <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">© 2026 Santini Cycling Taiwan | 禾宏文化資訊有限公司</p>
+              {/* --- UPDATED FOOTER --- */}
+              <footer className="py-16 bg-white text-center border-t border-slate-100">
+                <div className="container mx-auto px-6">
+                  <div className="mb-8 text-2xl font-black text-slate-900">Santini <span className="text-pink-600">| CUSTOM</span></div>
+                  
+                  <div className="flex flex-col gap-2 mb-10 text-slate-500 font-medium">
+                    <p className="text-lg font-bold text-slate-800">禾宏文化資訊有限公司</p>
+                    <p>電話：04-2436-9368</p>
+                    <p>統一編號：80175608</p>
+                    <p>Email：<a href="mailto:service@hehong.com.tw" className="text-pink-600 hover:underline">service@hehong.com.tw</a></p>
+                    <p className="text-sm text-slate-400 mt-2">(服務時間:週一至週五 09:00~18:00)</p>
+                  </div>
+
+                  <div className="pt-8 border-t border-slate-50">
+                    <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">
+                      © 2026 Santini Cycling Taiwan
+                    </p>
+                  </div>
+                </div>
               </footer>
             </div>
           );
