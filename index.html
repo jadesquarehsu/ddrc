@@ -45,7 +45,9 @@
             Layers: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>,
             ExternalLink: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>,
             MapPin: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>,
-            Eye: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            Eye: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>,
+            Line: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.034.439.051.896.051 1.352 0 5.062-4.39 9.175-9.782 9.175-5.39 0-9.78-4.113-9.78-9.175 0-5.061 4.39-9.173 9.78-9.173 1.572 0 3.05.344 4.372.954l-3.322 3.322c-.346-.109-.711-.168-1.05-.168-2.205 0-4 1.795-4 4s1.795 4 4 4c2.205 0 4-1.795 4-4 0-.339-.059-.704-.168-1.05l3.321-3.321c1.173 1.554 1.578 3.535 1.578 5.484zM18 10.5h1.5v-1.5h-1.5v1.5zm-2.25-1.5h-1.5v1.5h1.5v-1.5zm3.75-2.25h-1.5v1.5h1.5v-1.5z"/></svg>,
+            MessageCircle: <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
           };
           return icons[name] || null;
         };
@@ -100,7 +102,7 @@
                           <div className="w-1/3 bg-white border-y border-slate-100"></div>
                           <div className="w-1/3 bg-[#ce2b37]"></div>
                         </div>
-                        <span className="text-lg md:text-2xl font-black tracking-[0.2em] text-slate-700 uppercase">Made in Italy</span>
+                        <span className="text-lg md:text-2xl font-black tracking-[0.2em] text-slate-700">MADE IN ITALY</span>
                       </div>
                       <p className="text-base md:text-2xl font-bold text-slate-400 tracking-wider">CUSTOM MADE</p>
                     </div>
@@ -154,17 +156,17 @@
                     <div className="flex items-baseline gap-4"><span className="text-5xl font-black text-pink-600 italic">02</span><h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">挑選專屬版型</h2></div>
                     <div className="grid md:grid-cols-3 gap-6">
                       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-                        <div className="text-pink-600 mb-6 scale-125"><Icon name="Shirt" /></div>
+                        <div className="text-pink-600 mb-6 scale-125 flex justify-center"><Icon name="Shirt" /></div>
                         <h4 className="text-xl font-bold mb-2">ZENIT 職業緊身</h4>
                         <p className="text-sm text-slate-500">極致合身，空氣動力學設計。</p>
                       </div>
                       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-                        <div className="text-pink-600 mb-6 scale-125"><Icon name="Layers" /></div>
+                        <div className="text-pink-600 mb-6 scale-125 flex justify-center"><Icon name="Layers" /></div>
                         <h4 className="text-xl font-bold mb-2">APEX 競賽緊身</h4>
                         <p className="text-sm text-slate-500">卓越貼合性與即時回彈效果。</p>
                       </div>
                       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-                        <div className="text-pink-600 mb-6 scale-125"><Icon name="Users" /></div>
+                        <div className="text-pink-600 mb-6 scale-125 flex justify-center"><Icon name="Users" /></div>
                         <h4 className="text-xl font-bold mb-2">NOVA 經典合身</h4>
                         <p className="text-sm text-slate-500">舒適與性能的完美平衡。</p>
                       </div>
@@ -178,7 +180,7 @@
                     </div>
                     <div className="order-1 lg:order-2 space-y-6">
                       <div className="flex items-baseline gap-4"><span className="text-5xl font-black text-pink-600 italic">03</span><h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">把想法變成設計稿</h2></div>
-                      <p className="text-slate-500 text-lg font-medium">專業數位設計稿，精準設定每一處顏色與圖案位置，確保成品零落差。</p>
+                      <p className="text-slate-500 text-lg font-medium text-slate-600">專業數位設計稿，精準設定每一處顏色與圖案位置，確保成品零落差。</p>
                     </div>
                   </div>
 
@@ -201,7 +203,7 @@
                   <div className="bg-slate-900 rounded-[3rem] p-12 text-white text-center">
                     <div className="flex items-center justify-center gap-4 mb-8">
                       <span className="text-5xl font-black text-pink-500 italic">05</span>
-                      <h2 className="text-4xl md:text-6xl font-black">義大利生產製作</h2>
+                      <h2 className="text-4xl md:text-6xl font-black text-white">義大利生產製作</h2>
                     </div>
                     <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16">
                       <div className="relative rounded-3xl overflow-hidden border-4 border-white/10 group cursor-pointer">
@@ -214,29 +216,58 @@
                       </div>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="PenTool" /></div><h4 className="font-bold">高機能面料</h4><p className="text-xs text-slate-400">使用義大利高機能布料</p></div>
-                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="Palette" /></div><h4 className="font-bold">高品質印染</h4><p className="text-xs text-slate-400">生產染料符合歐盟法規</p></div>
-                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="CheckCircle" /></div><h4 className="font-bold">反光細節</h4><p className="text-xs text-slate-400">提升晨昏騎乘安全性</p></div>
-                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="Award" /></div><h4 className="font-bold">專業車縫</h4><p className="text-xs text-slate-400">平順車工同時牢靠耐用</p></div>
+                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="PenTool" /></div><h4 className="font-bold text-white">高機能面料</h4><p className="text-xs text-slate-400">使用義大利高機能布料</p></div>
+                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="Palette" /></div><h4 className="font-bold text-white">高品質印染</h4><p className="text-xs text-slate-400">生產染料符合歐盟法規</p></div>
+                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="CheckCircle" /></div><h4 className="font-bold text-white">反光細節</h4><p className="text-xs text-slate-400">提升晨昏騎乘安全性</p></div>
+                      <div className="space-y-2"><div className="text-pink-500 mb-2 flex justify-center"><Icon name="Award" /></div><h4 className="font-bold text-white">專業車縫</h4><p className="text-xs text-slate-400">平順車工同時牢靠耐用</p></div>
                     </div>
                   </div>
 
                 </div>
               </section>
 
-              {/* --- FINAL CTA --- */}
-              <section className="relative py-24 lg:py-40 text-white text-center">
+              {/* --- FINAL CTA (包含 Messenger 與 LINE) --- */}
+              <section className="relative py-24 lg:py-40 text-white text-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
                   <img src={files.groupShot} className="w-full h-full object-cover" alt="Team Background" />
                   <div className="absolute inset-0 bg-slate-950/40 backdrop-blur-[2px]"></div>
                 </div>
                 <div className="relative z-10 container mx-auto px-6">
-                  <h2 className="text-[36px] md:text-[56px] lg:text-[70px] font-black mb-6 tracking-tighter">你的設計，也可以變成這樣</h2>
+                  <h2 className="text-[36px] md:text-[56px] lg:text-[70px] font-black mb-6 tracking-tighter text-white">你的設計，也可以變成這樣</h2>
                   <p className="text-xl md:text-3xl font-bold mb-12">把你的想法丟給我，幫團隊實現！</p>
-                  <button className="bg-pink-600 hover:bg-pink-700 text-white px-12 py-6 rounded-full text-xl md:text-2xl font-black transition-all shadow-[0_20px_50px_rgba(219,39,119,0.4)] hover:-translate-y-2 group">
-                    私訊我們了解更多
-                    <span className="inline-block ml-4 group-hover:translate-x-2 transition-transform scale-125"><Icon name="ChevronRight" /></span>
-                  </button>
+                  
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
+                    {/* FB Messenger 按鈕 - 更新為您的 FB 專頁連結 */}
+                    <a 
+                      href="https://www.facebook.com/santinisms.tw" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto inline-flex items-center justify-center bg-white text-slate-900 px-10 py-5 rounded-full text-lg md:text-xl font-black transition-all hover:bg-slate-100 hover:-translate-y-1 shadow-xl group"
+                    >
+                      <span className="mr-3 text-blue-600 scale-110 flex items-center">
+                        <Icon name="MessageCircle" />
+                      </span>
+                      Messenger 私訊
+                    </a>
+
+                    {/* LINE 按鈕 - 更新為您的 LINE 客服連結 */}
+                    <a 
+                      href="https://lin.ee/rccy7rw" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto inline-flex items-center justify-center bg-[#06C755] text-white px-10 py-5 rounded-full text-lg md:text-xl font-black transition-all hover:bg-[#05b34c] hover:-translate-y-1 shadow-xl group"
+                    >
+                      <span className="mr-3 scale-110 flex items-center">
+                        <Icon name="Line" />
+                      </span>
+                      LINE 線上客服
+                    </a>
+                  </div>
+
+                  <div className="mt-12 md:mt-16 text-slate-300 font-bold tracking-widest text-sm flex items-center justify-center gap-2">
+                    <span>點擊上方按鈕，即刻開始討論</span>
+                    <div className="flex items-center animate-bounce-x"><Icon name="ChevronRight" className="w-4 h-4" /></div>
+                  </div>
                 </div>
               </section>
 
