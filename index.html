@@ -7,11 +7,14 @@
     
     <!-- === 社群分享縮圖設定 (Open Graph) === -->
     <meta property="og:title" content="Santini | DDRC 客製化案例展示">
-    <meta property="og:description" content="從一個想法到真的上場。探索 Santini 與 DDRC 中部地方爸爸團的頂級義大利客製化車衣之旅。">
+    <meta property="og:description" content="從一個想法到真的上場。探索 Santini 與 DDRC 的頂級義大利客製化車衣之旅。">
+    <!-- 縮圖建議使用 1200x630 的比例效果最好 -->
     <meta property="og:image" content="https://raw.githubusercontent.com/jadesquarehsu/ddrc/main/images/ddrc_hero.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
-    <!-- 正式網址已更新 -->
     <meta property="og:url" content="https://ddrc-santinicustom.zeabur.app/">
+    <meta property="og:site_name" content="Santini Cycling Taiwan">
     
     <!-- Twitter / X 分享設定 -->
     <meta name="twitter:card" content="summary_large_image">
@@ -46,7 +49,7 @@
 
     <script type="text/babel">
         /**
-         * 內建 SVG 圖示組件 - 確保不依賴外部庫，提升預覽穩定性
+         * 內建 SVG 圖示組件
          */
         const Icon = ({ name, className = "w-6 h-6" }) => {
           const icons = {
@@ -132,7 +135,7 @@
                   <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
                       <span className="inline-block py-1.5 px-4 rounded-full bg-pink-100 text-pink-600 font-bold tracking-[0.2em] text-xs uppercase mb-4">Real Case Study</span>
-                      <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">客製案例：DAD'S RIDING CLUB</h2>
+                      <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight uppercase">客製案例：DAD'S RIDING CLUB</h2>
                       <p className="text-lg md:text-2xl text-slate-500 font-medium">有一種強大，叫做「我想出門騎車」！</p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-6 md:gap-10">
